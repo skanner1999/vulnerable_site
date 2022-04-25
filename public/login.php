@@ -1,5 +1,5 @@
 <?php
-   include("config.php");
+   include($_SERVER['DOCUMENT_ROOT'].'/server/config.php');
    session_start();
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
