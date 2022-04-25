@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 vulnerable_site
+web: vendor/bin/heroku-php-apache2 vulnerable_site/
