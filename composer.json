@@ -1,4 +1,7 @@
-{ "post-install-cmd": [
-    "php artisan clear-compiled",
-    "chmod -R 777 public/"
-]}
+{
+    "name": "your-vendor-name/package-name",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": ">=7.3"
+    }
+}
