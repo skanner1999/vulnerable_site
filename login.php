@@ -1,5 +1,5 @@
 <?php
-   include("app/config.php");
+   include("config.php");
    session_start();
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -21,7 +21,7 @@
          //session_register("myusername");
          $_SESSION['login_user'] = $myusername;
          
-         header("location: app/welcome.php");
+         header("location: welcome.php");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
