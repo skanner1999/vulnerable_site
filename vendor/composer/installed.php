@@ -5,18 +5,18 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'a0c658e7ff9761e6147d6a513d7ad8940b28430c',
-        'name' => 'your-vendor-name/package-name',
+        'reference' => '85b6d449a8b29dd483db8977ade2dca319dc104d',
+        'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
-        'your-vendor-name/package-name' => array(
+        '__root__' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'a0c658e7ff9761e6147d6a513d7ad8940b28430c',
+            'reference' => '85b6d449a8b29dd483db8977ade2dca319dc104d',
             'dev_requirement' => false,
         ),
     ),
