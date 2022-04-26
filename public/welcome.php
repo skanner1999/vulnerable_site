@@ -1,5 +1,5 @@
 <?php
-   include($_SERVER['ROOT_DOCUMENT'].'/server/session.php');
+   include($_SERVER['DOCUMENT_ROOT'].'/server/session.php');
 ?>
 <html">
    
