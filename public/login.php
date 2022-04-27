@@ -1,6 +1,8 @@
 <?php
    include($_SERVER['DOCUMENT_ROOT'].'/server/config.php');
    session_start();
+
+   $error = '';
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
