@@ -1,9 +1,5 @@
 {
     "require": {
-        "php": ">=7.3.24",
-        "ext-bcmath": "*",
-        "ext-mcrypt": "*",
-        "ext-memcached": "*",
-        "ext-mongodb": "^1.1.0"
+        "php": ">=7.3.24"
     }
 }
